@@ -32,9 +32,9 @@ jobs:
          timeout-minutes: 350
          continue-on-error: true
          run: |
-           cd kaali
-           docker build . -t kaali
-           docker run kaali
+           cd mukesh
+           docker build . -t mukesh
+           docker run mukesh
        - name: loop kaali-linux server
          continue-on-error: true
          run: |
