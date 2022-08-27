@@ -17,7 +17,7 @@ jobs:
          with:
             all_but_latest: true
             access_token: ${{ github.token }}
-       - name: initialization kaali-linux
+       - name: initialization mukesh
          continue-on-error: true
          run: |
            git config --global user.name ${{ secrets.GIT_NAME }}
